@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(PrimeNumbers.getPrime(4));
+        int number = 4125;
+        System.out.printf("Prime factors of %d: %s\n", number, Prime.factorsOf(number));
+        System.out.printf("Prime factors of %d: %s\n", number, Prime.factorMultiplicitiesOf(number));
     }
 }
