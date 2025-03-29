@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class Prime {
     private static ArrayList<Integer> primes = new ArrayList<>();
 
